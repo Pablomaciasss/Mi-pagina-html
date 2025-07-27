@@ -1,0 +1,75 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Sara 💖</title>
+  <style>
+    /* Fondo con imagen suave y animación */
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(rgba(255, 192, 203, 0.6), rgba(255, 255, 255, 0.8)),
+                  url('https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #fff;
+      text-shadow: 2px 2px 8px #ff69b4;
+    }
+
+    p {
+      font-size: 1.6em;
+      max-width: 700px;
+      margin: 20px auto;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      backdrop-filter: blur(4px);
+      color: #fff;
+    }
+
+    .heart {
+      font-size: 4em;
+      margin-top: 20px;
+      animation: pulse 1.5s infinite;
+      color: #ff66a3;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 1.1em;
+      color: #f8f0f8;
+      text-shadow: 1px 1px 4px #000;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌸 Para Sara 🌸</h1>
+  <p>
+    Sara, eres una chica muy bonita y me alegra mucho haberte conocido.<br>
+    Me agradas muchísimo y deseo que siempre tengas lo mejor del mundo.<br>
+    Nunca olvides lo especial que eres, una verdadera princesa que merece todo lo bueno de la vida. 👑
+  </p>
+  <div class="heart">💖</div>
+  <div class="footer">Con mucho cariño... alguien que piensa en ti 😊</div>
+</body>
+</html>
